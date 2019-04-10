@@ -11,6 +11,8 @@ This game is a single page consisting of:
 * Game Canvas: The game itself, staged center
 * Control Panel/Footer: Pause/Start, Mute/Unmute, links and instructions
 
+![Wireframe](https://github.com/EbokianLady/little_red/blob/master/assets/images/wireframe.png)
+
 ## Technologies
 
 * Vanilla Javascript for game logic: background, character and item classes.
