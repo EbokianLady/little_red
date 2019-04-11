@@ -24,11 +24,17 @@ header {
   margin: 20px 0px;
 }
 
+.canvas-box {
+  height: 400px;
+  width: 800px;
+  position: relative;
+}
+
 canvas {
-  background: #DEA;
   border: 8px #235 solid;
   border-radius: 8px;
   display: block;
+  position: absolute;
 }
 
 /* CONTROL PANEL */
