@@ -8,7 +8,6 @@ ground: #266
 fore:   #235
 */
 
-
 body {
   align-items: center;
   background-color: #DEA;
@@ -36,6 +35,26 @@ canvas {
   box-sizing: border-box;
   display: block;
   position: absolute;
+}
+
+#timer {
+  align-items: center;
+  background-color: #235;
+  border: 2px solid #DEA;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #DEA;
+  display: flex;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 28px;
+  height: 40px;
+  justify-content: center;
+  margin: 0px;
+  margin-left: 680px;
+  margin-top: 20px;
+  padding: 5px 10px 10px 10px;
+  position: absolute;
+  width: 100px;
 }
 
 /* CONTROL PANEL */

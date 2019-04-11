@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/EbokianLady/little_red#readme",
   "dependencies": {
+    "easytimer.js": "^3.1.0",
     "lodash": "^4.17.11"
   },
   "devDependencies": {
