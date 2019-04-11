@@ -25,14 +25,15 @@ header {
 }
 
 .canvas-box {
-  height: 400px;
-  width: 800px;
+  border: 8px #235 solid;
+  border-radius: 8px;
+  height: 398px;
   position: relative;
+  width: 800px;
 }
 
 canvas {
-  border: 8px #235 solid;
-  border-radius: 8px;
+  box-sizing: border-box;
   display: block;
   position: absolute;
 }
