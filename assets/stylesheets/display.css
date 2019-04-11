@@ -52,13 +52,37 @@ canvas {
   height: 100px;
   justify-content: space-between;
   margin-top: 30px;
-  padding: 20px 40px;
+  padding: 20px;
   text-align: center;
   width: 816px;
 }
 
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  color: #235;
+  font-size: inherit;
+}
+
+button:hover {
+  background-color: #597;
+  cursor: pointer;
+}
+
 .controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 140px;
   font-size: 50px;
+}
+
+.controls-left {
+  font-size: 40px;
 }
 
 p {
