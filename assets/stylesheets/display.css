@@ -1,0 +1,89 @@
+/* COLORS
+red:    #B31
+back:   #DEA
+far:    #9C8
+mid:    #597
+near:   #255
+ground: #266
+fore:   #235
+*/
+
+
+body {
+  align-items: center;
+  background-color: #DEA;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Quicksand', sans-serif;
+}
+
+header {
+  color: #B31;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 72px;
+  margin: 20px 0px;
+}
+
+canvas {
+  background: #DEA;
+  border: 8px #235 solid;
+  border-radius: 8px;
+  display: block;
+}
+
+/* CONTROL PANEL */
+
+.control-panel {
+  align-items: center;
+  background-color: #9C8;
+  border: 4px #235 solid;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #235;
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 20px 40px;
+  text-align: center;
+  width: 816px;
+}
+
+.controls {
+  font-size: 50px;
+}
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+/* FOOTER */
+
+footer {
+  align-items: center;
+  box-sizing: border-box;
+  color: #235;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  padding: 20px 40px;
+  width: 816px;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 50px;
+  justify-content: space-between;
+  width: 200px;
+}

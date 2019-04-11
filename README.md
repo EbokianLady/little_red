@@ -21,7 +21,7 @@ This game is a single page consisting of:
 
 ## Features
 
-* Paralax Scrolling
+* Parallax Scrolling
 * Sprite animation and gravity
 * Live timer
 * High scores (bonus: staged left)
