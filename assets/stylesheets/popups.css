@@ -1,0 +1,51 @@
+/* COLORS
+red:    #B31
+back:   #DEA
+far:    #9C8
+mid:    #597
+near:   #255
+fore:   #235
+*/
+
+
+#game-over {
+  align-items: center;
+  background-color: #9C8;
+  border: 4px #235 solid;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  justify-content: space-around;
+  margin-top: 110px;
+  margin-left: 200px;
+  padding: 20px;
+  position: absolute;
+  text-align: center;
+  width: 400px;
+  z-index: 5;
+}
+
+h1 {
+  color: #B31;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 48px;
+  margin: 0px;
+}
+
+#play-again {
+  height: 40px;
+  width: 150px;
+  background-color: #235;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 5px;
+  font-weight: bold;
+  color: #DEA;
+  font-size: 18px;
+}
+
+#game-over.hidden {
+  display: none;
+}

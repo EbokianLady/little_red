@@ -7,6 +7,7 @@
 
   <link href="./assets/stylesheets/reset.css" rel="stylesheet">
   <link href="./assets/stylesheets/display.css" rel="stylesheet">
+  <link href="./assets/stylesheets/popups.css" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500" rel="stylesheet">
@@ -29,6 +30,12 @@
     <canvas id="myCanvas" width="800" height="400"></canvas>
     <canvas id="foreCanvas" width="800" height="400"></canvas>
     <h2 id='timer'>00:00</h2>
+    <div id='game-over' class='hidden'>
+      <h1>Game Over</h1>
+      <button id='play-again'>
+        Play Again
+      </button>
+    </div>
   </div>
 
   <div class='control-panel'>
