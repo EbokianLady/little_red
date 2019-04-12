@@ -38,12 +38,12 @@ Implement parallax scrolling.
 Build Red Riding Hood and Big Bad Wolf classes.
 Render their (temp) icons onto the the game display.
 Create dynamic distance depending on Red's energy meter.
-Render Game Over.
+Add timer. Render Game Over.
 
 ### DAY 3
 
+Add jumping and physics.
 Implement items and obstacles that update energy bar on contact.
-Add timer.
 Add music with mute/unmute option.
 
 ### DAY 4
