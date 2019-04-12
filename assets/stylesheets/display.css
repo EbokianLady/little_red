@@ -4,7 +4,6 @@ back:   #DEA
 far:    #9C8
 mid:    #597
 near:   #255
-ground: #266
 fore:   #235
 */
 
@@ -136,4 +135,12 @@ nav {
   font-size: 50px;
   justify-content: space-between;
   width: 200px;
+}
+
+a {
+  color: #235;
+}
+
+a:hover {
+  color: #597;
 }

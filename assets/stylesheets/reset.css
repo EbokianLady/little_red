@@ -47,6 +47,9 @@ table {
 border-collapse: collapse;
 border-spacing: 0;
 }
+a {
+  color: inherit;
+}
 
 button{
   background-color: transparent;
