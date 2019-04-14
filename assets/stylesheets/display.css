@@ -47,11 +47,11 @@ canvas {
   font-family: 'Berkshire Swash', cursive;
   font-size: 28px;
   height: 40px;
-  justify-content: center;
+  justify-content: flex-start;
   margin: 0px;
   margin-left: 660px;
   margin-top: 20px;
-  padding: 5px 10px 10px 10px;
+  padding: 5px 12px 10px 12px;
   position: absolute;
   width: 120px;
 }
@@ -143,4 +143,8 @@ a {
 
 a:hover {
   color: #597;
+}
+
+.spacer {
+  height: 300px;
 }
