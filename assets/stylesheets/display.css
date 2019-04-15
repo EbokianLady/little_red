@@ -117,7 +117,8 @@ footer {
   color: #235;
   display: flex;
   flex-direction: column;
-  height: 100px;
+  justify-content: space-between;
+  height: 150px;
   padding: 20px 40px;
   width: 816px;
 }
@@ -125,7 +126,7 @@ footer {
 h5 {
   font-size: 16px;
   font-weight: bold;
-  margin-bottom: 20px;
+  /* margin: 20px; */
 }
 
 nav {
@@ -137,14 +138,14 @@ nav {
   width: 200px;
 }
 
+.link {
+  text-decoration: none;
+}
+
 a {
   color: #235;
 }
 
 a:hover {
   color: #597;
-}
-
-.spacer {
-  height: 300px;
 }
