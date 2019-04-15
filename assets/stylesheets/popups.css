@@ -27,6 +27,25 @@ fore:   #235
   z-index: 5;
 }
 
+#game-won {
+  align-items: center;
+  background-color: #9C8;
+  border: 4px #235 solid;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-left: 200px;
+  padding: 20px;
+  position: absolute;
+  text-align: center;
+  width: 400px;
+  z-index: 5;
+}
+
 h1 {
   color: #B31;
   font-family: 'Berkshire Swash', cursive;
@@ -34,7 +53,31 @@ h1 {
   margin: 0px;
 }
 
-#play-again {
+h3 {
+  color: #255;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+h4 {
+  color: #235;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.apple {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.play-again {
   height: 40px;
   width: 150px;
   background-color: #235;
@@ -47,5 +90,9 @@ h1 {
 }
 
 #game-over.hidden {
+  display: none;
+}
+
+#game-won.hidden {
   display: none;
 }
