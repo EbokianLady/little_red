@@ -2,7 +2,7 @@
 
 # Little Red
 
-Little Red is a javascript game inspired by the well-known fairytale. Little Red Riding Hood must run for her life with The Big Bad Wolf right on her tail. It’s up to her not to get caught. Jump over obstacles and catch red apples to replenish energy.
+Little Red is a javascript game inspired by the well-known fairytale. Little Red Riding Hood must run for her life with The Big Bad Wolf right on her tail. It’s up to her not to get caught and make it to Grandma's House. Jump to catch red apples and maintain speed else the Big Bad Wolf will catch up.
 
 ## Wireframe
 
@@ -23,8 +23,9 @@ This game is a single page consisting of:
 
 * Parallax Scrolling
 * Sprite animation and gravity
+* Storybook excerpts
+* Proximity
 * Live timer
-* High scores (bonus: staged left)
 
 ## Implementation Timeline
 
@@ -43,10 +44,16 @@ Add timer. Render Game Over.
 ### DAY 3
 
 Add jumping and physics.
-Implement items and obstacles that update energy bar on contact.
+Implement items that update Red's speed on contact.
 Add music with mute/unmute option.
+Add sound effects.
 
 ### DAY 4
 
-Add highscores staged left.
-Implement difficulty levels (less items, more obstacles).
+Add Levels.
+Decrease maximum distance between Wolf and Red per level.
+Add win game and Grandma's house scenario.
+Add Play again functionality.
+
+BONUS:
+Make mobile friendly.
