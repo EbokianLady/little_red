@@ -1,6 +1,6 @@
 # LITTLE RED
 
-<image and link here>
+[![Link](https://github.com/EbokianLady/little_red/blob/master/assets/images/read_me/full_screen.png)](https://ebokianlady.github.io/little_red/)
   
 ## Table of Contents
 
@@ -31,6 +31,9 @@ Little Red is a javascript game inspired by the well-known fairytale. Little Red
 * Storybook excerpts
 * Music and sound effects (mutable)
 * Live timer
+
+![Red](https://github.com/EbokianLady/little_red/blob/master/assets/images/read_me/red.png)
+![Wolf](https://github.com/EbokianLady/little_red/blob/master/assets/images/read_me/wolf.png)
 
 #### Collision Detection and Level Adjustment
 
