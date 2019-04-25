@@ -144,8 +144,19 @@ nav {
 
 a {
   color: #235;
+  height: 50px;
 }
 
 a:hover {
   color: #597;
+}
+
+.logo {
+  height: 46px;
+  width: 46px;
+  padding: 2px 0px;
+}
+
+i {
+  font-size: 50px;
 }
