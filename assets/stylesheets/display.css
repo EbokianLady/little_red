@@ -89,6 +89,8 @@ button {
 button:hover {
   background-color: #597;
   cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
 }
 
 .controls {
@@ -99,8 +101,12 @@ button:hover {
   font-size: 50px;
 }
 
-.controls-left {
-  font-size: 40px;
+.fa-volume-up {
+  font-size: 45px;
+}
+
+.fa-volume-mute {
+  font-size: 45px;
 }
 
 p {
@@ -149,12 +155,21 @@ a {
 
 a:hover {
   color: #597;
+  transition: 0.5s;
+  transform: scale(1.1);
 }
 
 .logo {
   height: 46px;
   width: 46px;
-  padding: 2px 0px;
+  background-image: url('../images/personal-logo.png');
+  background-size: 46px 46px;
+  background-repeat: no-repeat;
+  margin: 2px 0px;
+}
+
+.logo:hover {
+  background-image: url('../images/personal-logo-h.png');
 }
 
 i {
