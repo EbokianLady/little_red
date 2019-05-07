@@ -15,12 +15,15 @@ fore:   #235
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  height: 180px;
-  justify-content: space-around;
   padding: 20px;
   text-align: center;
   width: 400px;
   z-index: 5;
+}
+
+#game-start > h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -28,6 +31,7 @@ h1 {
   font-family: 'Berkshire Swash', cursive;
   font-size: 48px;
   margin: 0px;
+  margin-bottom: 20px;
 }
 
 h3 {
@@ -36,6 +40,7 @@ h3 {
   font-size: 28px;
   font-weight: bold;
   margin: 0px;
+  margin-bottom: 20px;
 }
 
 h4 {
@@ -44,14 +49,15 @@ h4 {
   font-size: 18px;
   font-weight: bold;
   margin: 0px;
+  margin-bottom: 10px;
 }
 
 .apple {
   position: absolute;
   height: 60px;
   width: 60px;
-  margin-top: 50px;
-  margin-left: 150px;
+  margin-top: 80px;
+  margin-left: 140px;
 }
 
 .play-again {
