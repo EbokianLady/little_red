@@ -34,20 +34,27 @@
     <canvas id="houseCanvas" width="800" height="400"></canvas>
     <canvas id="myCanvas" width="800" height="400"></canvas>
     <canvas id="foreCanvas" width="800" height="400"></canvas>
-    <h2 id='timer'>00:00:0</h2>
-    <div id='game-over' class='hidden'>
-      <h1>Game Over</h1>
-      <button id='retry' class='play-again'>
-        Play Again
-      </button>
-    </div>
-    <div id='game-won' class='hidden'>
-      <h3>You made it safely to Grandma's House.</h3>
-      <h4 id='apple-count'>0 Apples Collected</h4>
-      <img class='apple' src='./assets/images/elements/apple.png' />
-      <button id='play-again' class='play-again'>
-        Play Again
-      </button>
+    <div id='touch-screen'>
+      <h2 id='timer'>00:00:0</h2>
+      <div id='game-lost' class='panel hidden'>
+        <h1>Game Over</h1>
+        <button id='retry' class='play-again'>
+          Play Again
+        </button>
+      </div>
+      <div id='game-won' class='panel hidden'>
+        <h3>You made it safely to Grandma's House.</h3>
+        <h4 id='apple-count'>0 Apples Collected</h4>
+        <img class='apple' src='./assets/images/elements/apple.png' />
+        <button id='play-again' class='play-again'>
+          Play Again
+        </button>
+      </div>
+      <div id='game-start' class='panel'>
+        <button id='start' class='play-again'>
+          Play
+        </button>
+      </div>
     </div>
   </div>
 

@@ -30,6 +30,15 @@ header {
   width: 800px;
 }
 
+#touch-screen {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+  z-index: 5;
+}
+
 canvas {
   box-sizing: border-box;
   display: block;
@@ -49,8 +58,8 @@ canvas {
   height: 40px;
   justify-content: flex-start;
   margin: 0px;
-  margin-left: 660px;
-  margin-top: 20px;
+  margin-left: 320px;
+  margin-top: -160px;
   padding: 5px 12px 10px 12px;
   position: absolute;
   width: 120px;
