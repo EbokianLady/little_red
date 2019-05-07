@@ -22,18 +22,29 @@ header {
   margin: 20px 0px;
 }
 
-.canvas-box {
-  border: 8px #235 solid;
-  border-radius: 8px;
-  height: 398px;
+#canvas-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border: none;
+  border-radius: 0px;
+}
+
+#canvas-buffer {
+  height: 100%;
+  width: 100%;
   position: relative;
-  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 canvas {
   box-sizing: border-box;
   display: block;
   position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
 #timer {
@@ -174,4 +185,15 @@ a:hover {
 
 i {
   font-size: 50px;
+}
+
+@media only screen and (min-width: 800px) {
+  #canvas-box {
+    border-radius: 8px;
+  }
+
+  canvas {
+    border-radius: 8px;
+    border: 8px #235 solid;
+  }
 }

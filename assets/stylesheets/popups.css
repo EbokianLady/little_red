@@ -7,8 +7,7 @@ near:   #255
 fore:   #235
 */
 
-
-#game-over {
+.panel {
   align-items: center;
   background-color: #9C8;
   border: 4px #235 solid;
@@ -16,33 +15,13 @@ fore:   #235
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  height: 180px;
+  height: 45%;
   justify-content: space-around;
-  margin-top: 110px;
-  margin-left: 200px;
   padding: 20px;
-  position: absolute;
   text-align: center;
-  width: 400px;
-  z-index: 5;
-}
-
-#game-won {
-  align-items: center;
-  background-color: #9C8;
-  border: 4px #235 solid;
-  border-radius: 8px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  height: 200px;
-  justify-content: space-around;
-  margin-top: 100px;
-  margin-left: 200px;
-  padding: 20px;
-  position: absolute;
-  text-align: center;
-  width: 400px;
+  max-height: 180px;
+  max-width: 400px;
+  width: 50%;
   z-index: 5;
 }
 
@@ -94,5 +73,9 @@ h4 {
 }
 
 #game-won.hidden {
+  display: none;
+}
+
+#game-start.hidden {
   display: none;
 }

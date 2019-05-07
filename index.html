@@ -23,31 +23,39 @@
 <body>
   <script type="text/javascript" src="./dist/bundle.js"></script>
 
-  <header>
+  <!-- <header>
     Little Red
-  </header>
+  </header> -->
 
-  <div class='canvas-box'>
+  <div id='canvas-box'>
     <canvas id="farCanvas" width="800" height="400"></canvas>
     <canvas id="midCanvas" width="800" height="400"></canvas>
     <canvas id="nearCanvas" width="800" height="400"></canvas>
     <canvas id="houseCanvas" width="800" height="400"></canvas>
     <canvas id="myCanvas" width="800" height="400"></canvas>
     <canvas id="foreCanvas" width="800" height="400"></canvas>
-    <h2 id='timer'>00:00:0</h2>
-    <div id='game-over' class='hidden'>
-      <h1>Game Over</h1>
-      <button id='retry' class='play-again'>
-        Play Again
-      </button>
-    </div>
-    <div id='game-won' class='hidden'>
-      <h3>You made it safely to Grandma's House.</h3>
-      <h4 id='apple-count'>0 Apples Collected</h4>
-      <img class='apple' src='./assets/images/elements/apple.png' />
-      <button id='play-again' class='play-again'>
-        Play Again
-      </button>
+    <div id='canvas-buffer'>
+      <h2 id='timer'>00:00:0</h2>
+      <div id='game-start' class='panel'>
+        <h1>Play Game</h1>
+        <button id='play-game' class='play-again'>
+          Play
+        </button>
+      </div>
+      <div id='game-over' class='panel hidden'>
+        <h1>Game Over</h1>
+        <button id='retry' class='play-again'>
+          Play Again
+        </button>
+      </div>
+      <div id='game-won' class='panel hidden'>
+        <h3>You made it safely to Grandma's House.</h3>
+        <h4 id='apple-count'>0 Apples Collected</h4>
+        <img class='apple' src='./assets/images/elements/apple.png' />
+        <button id='play-again' class='play-again'>
+          Play Again
+        </button>
+      </div>
     </div>
   </div>
 
@@ -74,7 +82,7 @@
     </div>
   </div>
 
-  <footer>
+  <!-- <footer>
     <h5>Created by Stephanie Keller</h5>
     <nav>
       <a href='https://ebokianlady.github.io/' target="_blank">
@@ -92,7 +100,7 @@
         Purple Planet Music
       </a>
     </h5>
-  </footer>
+  </footer> -->
 </body>
 
 </html>
